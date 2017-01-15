@@ -1,42 +1,42 @@
 package com.vaticahealth.vatica.pages;
 
 import java.awt.AWTException;
-import java.awt.Robot;
-import java.awt.event.KeyEvent;
-import java.lang.reflect.Array;
+//import java.awt.Robot;
+//import java.awt.event.KeyEvent;
+//import java.lang.reflect.Array;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.Iterator;
+//import java.util.Collection;
+//import java.util.HashSet;
+//import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
-import org.openqa.selenium.support.ui.WebDriverWait;
+//import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
+//import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
+//import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+//import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
-import org.testng.Reporter;
+//import org.testng.Reporter;
 
-import org.testng.annotations.Test;
+//import org.testng.annotations.Test;
 
 import com.vaticahealth.vatica.config.Configuration;
 import com.vaticahealth.vatica.utils.CommonCode;
 import com.vaticahealth.vatica.utils.Elements;
 import com.vaticahealth.vatica.utils.Button;
-import org.openqa.selenium.JavascriptExecutor;
+//import org.openqa.selenium.JavascriptExecutor;
 
 public class PHP {
 	WebDriver driver = Configuration.driver;
@@ -376,6 +376,7 @@ public class PHP {
 
 	public void firstName(String searchFirstNameSupp) {
 
+		@SuppressWarnings("unused")
 		String suppFirstName = searchFirstNameSupp;
 		firstNameSearch.sendKeys(searchFirstNameSupp);
 	}
@@ -418,6 +419,7 @@ public class PHP {
 
 	public void lastName(String lastNameSupp) {
 		common.explictWaitPresence(20, By.xpath(Elements.SEARCHLASTNAME));
+		@SuppressWarnings("unused")
 		String suppLastName = lastNameSupp;
 		lastNameSearch.sendKeys(lastNameSupp);
 	}
@@ -563,6 +565,7 @@ public class PHP {
 
 	public ArrayList<String> getSortedFirstNameOnPHPfromDB() throws ClassNotFoundException, SQLException {
 		ArrayList<String> lst = new ArrayList<String>();
+		@SuppressWarnings("unused")
 		int i = 1;
 
 		Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
@@ -574,6 +577,7 @@ public class PHP {
 		String Sql2 = "select count(FirstName) from hra where SiteId = 1 ";
 		ResultSet rs2 = sta.executeQuery(Sql2);
 		while (rs2.next()) {
+			@SuppressWarnings("unused")
 			int ListSize = Integer.parseInt(rs2.getString(1));
 			// System.out.println(ListSize);
 		}
@@ -594,6 +598,7 @@ public class PHP {
 
 	public ArrayList<String> getSortedLastNameOnPHPfromDB() throws ClassNotFoundException, SQLException {
 		ArrayList<String> lst = new ArrayList<String>();
+		@SuppressWarnings("unused")
 		int i = 1;
 
 		Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
@@ -605,6 +610,7 @@ public class PHP {
 		String Sql2 = "select count(LastName) from hra where SiteId = 1 ";
 		ResultSet rs2 = sta.executeQuery(Sql2);
 		while (rs2.next()) {
+			@SuppressWarnings("unused")
 			int ListSize = Integer.parseInt(rs2.getString(1));
 			// System.out.println(ListSize);
 		}
@@ -625,6 +631,7 @@ public class PHP {
 
 	public ArrayList<String> getSortedVisitDatesOnPHPfromDB() throws ClassNotFoundException, SQLException {
 		ArrayList<String> lst = new ArrayList<String>();
+		@SuppressWarnings("unused")
 		int i = 1;
 
 		Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
@@ -636,6 +643,7 @@ public class PHP {
 		String Sql2 = "select count(1) from hra where SiteId = 1 ";
 		ResultSet rs2 = sta.executeQuery(Sql2);
 		while (rs2.next()) {
+			@SuppressWarnings("unused")
 			int ListSize = Integer.parseInt(rs2.getString(1));
 			// System.out.println(ListSize);
 		}

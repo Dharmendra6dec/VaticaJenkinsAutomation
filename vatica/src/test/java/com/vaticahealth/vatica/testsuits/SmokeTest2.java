@@ -1,17 +1,17 @@
 package com.vaticahealth.vatica.testsuits;
 
-import javax.mail.MessagingException;
-import javax.mail.internet.AddressException;
+//import javax.mail.MessagingException;
+//import javax.mail.internet.AddressException;
 
-import org.openqa.selenium.Keys;
-import org.testng.Assert;
+//import org.openqa.selenium.Keys;
+//import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.vaticahealth.vatica.config.TestAnnotation;
 import com.vaticahealth.vatica.config.VaticaInterface;
-import com.vaticahealth.vatica.utils.CommonCode;
-import com.vaticahealth.vatica.utils.MailConfig;
-import com.vaticahealth.vatica.utils.MonitoringMail;
+//import com.vaticahealth.vatica.utils.CommonCode;
+//import com.vaticahealth.vatica.utils.MailConfig;
+//import com.vaticahealth.vatica.utils.MonitoringMail;
 
 public class SmokeTest2 extends TestAnnotation implements VaticaInterface {
 

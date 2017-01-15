@@ -1,9 +1,9 @@
 package com.vaticahealth.vatica.utils;
 
-import org.openqa.selenium.By;
+//import org.openqa.selenium.By;
 
-import com.vaticahealth.vatica.config.TestAnnotation;
-import com.vaticahealth.vatica.pages.PHP;
+//import com.vaticahealth.vatica.config.TestAnnotation;
+//import com.vaticahealth.vatica.pages.PHP;
 
 public  class Elements{
 	

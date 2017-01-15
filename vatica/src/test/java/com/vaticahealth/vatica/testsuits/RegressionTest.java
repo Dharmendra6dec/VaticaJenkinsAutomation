@@ -1,10 +1,10 @@
 package com.vaticahealth.vatica.testsuits;
 
-import java.awt.AWTException;
+//import java.awt.AWTException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
-import java.lang.reflect.InvocationTargetException;
-import java.util.ArrayList;
+//import java.lang.reflect.InvocationTargetException;
+//import java.util.ArrayList;
 
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -13,10 +13,10 @@ import org.testng.annotations.Test;
 
 import com.vaticahealth.vatica.config.TestAnnotation;
 import com.vaticahealth.vatica.config.VaticaInterface;
-import com.vaticahealth.vatica.testcases.LoginTest;
-import com.vaticahealth.vatica.testcases.PHPTest;
-import com.vaticahealth.vatica.utils.CommonCode;
-import com.vaticahealth.vatica.utils.Elements;
+//import com.vaticahealth.vatica.testcases.LoginTest;
+//import com.vaticahealth.vatica.testcases.PHPTest;
+//import com.vaticahealth.vatica.utils.CommonCode;
+//import com.vaticahealth.vatica.utils.Elements;
 
 public class RegressionTest extends TestAnnotation implements VaticaInterface {
 

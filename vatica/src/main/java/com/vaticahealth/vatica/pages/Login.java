@@ -12,7 +12,7 @@ import com.vaticahealth.vatica.config.Configuration;
 import com.vaticahealth.vatica.utils.Button;
 import com.vaticahealth.vatica.utils.CommonCode;
 import com.vaticahealth.vatica.utils.Elements;
-import com.vaticahealth.vatica.utils.Button;
+//import com.vaticahealth.vatica.utils.Button;
 
 public class Login {
 	CommonCode common = new CommonCode();

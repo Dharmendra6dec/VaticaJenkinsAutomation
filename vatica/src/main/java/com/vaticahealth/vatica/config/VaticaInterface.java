@@ -8,7 +8,7 @@ import com.vaticahealth.vatica.testcases.PHPTest;
 import com.vaticahealth.vatica.testcases.PPPTest;
 import com.vaticahealth.vatica.testcases.TestsTest;
 import com.vaticahealth.vatica.testcases.TrainingResourcesTest;
-import com.vaticahealth.vatica.utils.CommonCode;
+//import com.vaticahealth.vatica.utils.CommonCode;
 
 public interface VaticaInterface {
 	

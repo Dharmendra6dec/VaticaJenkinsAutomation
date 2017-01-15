@@ -2,20 +2,20 @@ package com.vaticahealth.vatica.testsuits;
 
 import java.awt.AWTException;
 import java.lang.reflect.InvocationTargetException;
-import java.util.ArrayList;
+//import java.util.ArrayList;
 
 import javax.mail.MessagingException;
 import javax.mail.internet.AddressException;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.support.ui.Select;
-import org.testng.annotations.BeforeClass;
+//import org.openqa.selenium.By;
+//import org.openqa.selenium.Keys;
+//import org.openqa.selenium.support.ui.Select;
+//import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.vaticahealth.vatica.config.TestAnnotation;
 import com.vaticahealth.vatica.config.VaticaInterface;
-import com.vaticahealth.vatica.utils.CommonCode;
+//import com.vaticahealth.vatica.utils.CommonCode;
 import com.vaticahealth.vatica.utils.MailConfig;
 import com.vaticahealth.vatica.utils.MonitoringMail;
 

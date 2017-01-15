@@ -2,12 +2,12 @@ package com.vaticahealth.vatica.testcases;
 
 import java.lang.reflect.InvocationTargetException;
 
-import org.openqa.selenium.WebDriver;
-import org.testng.annotations.Test;
+//import org.openqa.selenium.WebDriver;
+//import org.testng.annotations.Test;
 
 import com.vaticahealth.vatica.config.TestAnnotation;
-import com.vaticahealth.vatica.pages.Login;
-import com.vaticahealth.vatica.utils.CommonCode;
+//import com.vaticahealth.vatica.pages.Login;
+//import com.vaticahealth.vatica.utils.CommonCode;
 
 import junit.framework.Assert;
 
